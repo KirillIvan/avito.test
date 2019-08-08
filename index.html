@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Авито</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://www.avito.st/favicon.ico?9de48a5" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+  <menu class="page_menu">
+    <div class="menu">
+        <a href="#" class="menu_logo"></a>
+        <a href="" class="menu_item">Авто</a>
+        <a href="" class="menu_item">Недвижимость</a>
+        <a href="" class="menu_item">Ноутбуки</a>
+        <a href="" class="menu_item">Фотоаппараты</a>
+    </div>
+    <div class="sortPrice">
+        <header class="sortPrice_header">
+            Цена
+        </header>
+        <div class="price_inputs">
+        <input type="text" class="price_input" maxlength="15" placeholder="цена от" style="border-right: none; border-radius: 3px 0 0 3px;" onkeypress="onkeypressInput()" onchange="onchangeInput()">
+        <input type="text" class="price_input" maxlength="15" placeholder="до руб." style="border-radius:0 3px 3px 0;" onkeypress="onkeypressInput()" onchange="onchangeInput()">
+        </div>
+        <button class="sortPrice_btn" id="sortPrice_btn" onclick="onclickSortPriceBtn()"></button>
+    </div>
+  </menu>
+  <div class="content">
+    <header class="content_header">
+        Все объявления
+    </header>
+    <div id="catalog">
+        <!--<div class="item">
+            <header class="item_header">
+              <a href="" class="item_image"></a>
+              <div class="favourites"></div>
+              <a href="" class="image_count">
+                  2
+              </a>
+            </header>
+            <div class="item_content">
+                <a href="" class="item_content_header">
+                    Котята
+                </a>
+                <div class="item_price">
+                    50 &#8381;
+                </div>
+                <div class="item_elem">
+                    Иванов Петр
+                </div>
+                <div class="item_rating item_elem">
+                    Рейтинг: 2.2
+                </div>
+            </div>
+        </div>-->
+
+    </div>
+  </div>
+<script src="main.js"></script>
+</body>
+</html>
